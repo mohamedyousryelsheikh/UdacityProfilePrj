@@ -1,41 +1,45 @@
 /*header styles*/
-.logo-companytitle-wrapper{
+.logo-companytitle-wrapper {
     border-bottom:2px solid #7d97ad;
     margin-bottom: 25px;
 }
 
-.logo-companytitle-wrapper h1{
+.logo-companytitle-wrapper h1 {
     text-transform: uppercase;
     color:#2d3c49;
 }
 
-.logo-companytitle-wrapper h4{
+.logo-companytitle-wrapper h4 {
     text-transform: uppercase;
     color: #2d3c49;
 }
 
-.logo-companytitle-wrapper img{
+.logo-companytitle-wrapper img {
     width: 100%;
 }
 
 /*business details styles*/
-.company-details-main-area{
+.company-details-main-area {
     margin-top: 25px;
 }
 
-.business-details-wrapper .business-title{
+.business-details-wrapper .business-title {
     text-transform: uppercase;
     text-align: center;
     margin-top: 10px;
     font-size: 2em;
 }
 
-.business-details-wrapper .business-link{
+.business-details-wrapper .business-link {
     text-align: center;
 }
 
-.business-details-wrapper a{
+.business-details-wrapper a {
     color:#2d3c49;
+}
+.company-details-main-area p {
+    text-align: center;
+    padding: 25px 0
 }
 
 /*generic styles*/
@@ -43,27 +47,27 @@ body{
     font-size: 14px;
 }
 
-.company-profile-main-wrapper img{
+.company-profile-main-wrapper img {
     width: 100%;
     max-height: 100vh;
 }
 
-.company-profile-main-wrapper h2{
+.company-profile-main-wrapper h2 {
     color: #7d97ad;
 }
 
-.text-align-right{
+.text-align-right {
     text-align: right
 }
 
 
 /*media query section*/
  
- @media only screen and (max-width: 767px){
+ @media only screen and (max-width: 767px) {
     .company-main-title{
         text-align: center
     }
-    .company-details-main-area .col-md-4{
+    .company-details-main-area .col-md-4 {
         margin-bottom: 25px;
     }
 
